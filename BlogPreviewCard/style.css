@@ -29,3 +29,13 @@ body {
   border-radius: 10px;
   background-image: url(assets/images/illustration-article.svg);
 }
+
+.learning-button {
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(47, 88%, 63%);
+  margin: 20px 0;
+  padding: 5px 13px;
+  color: black;
+  font-weight: 800;
+}
