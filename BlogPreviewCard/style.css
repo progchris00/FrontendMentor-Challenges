@@ -3,6 +3,7 @@
 }
 
 body {
+  font-family: "Figtree", sans-serif;
   background-color: hsl(47, 88%, 63%);
   margin: 0;
 }
@@ -34,8 +35,36 @@ body {
   border: none;
   border-radius: 5px;
   background-color: hsl(47, 88%, 63%);
-  margin: 20px 0;
+  margin: 20px 0 10px 0;
   padding: 5px 13px;
   color: black;
+  font-weight: 800;
+}
+
+.description {
+  color: hsl(0, 0%, 50%);
+  margin: 20px 0;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.date {
+  margin: 0 0 20px 0;
+}
+
+.author-profile {
+  display: flex;
+  align-items: center;
+}
+
+.author-avatar img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.author-name {
   font-weight: 800;
 }
