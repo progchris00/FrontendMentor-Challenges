@@ -56,6 +56,10 @@ body {
   color: hsl(47, 88%, 63%);
 }
 
+body:has(.title:hover) .card {
+  box-shadow: 15px 15px black;
+}
+
 .date {
   margin: 0 0 20px 0;
 }
