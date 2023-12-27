@@ -51,6 +51,11 @@ body {
   font-size: 24px;
 }
 
+.title:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
 .date {
   margin: 0 0 20px 0;
 }
