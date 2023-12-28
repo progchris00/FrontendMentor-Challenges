@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information {
+    padding: 0 30px;
+    text-align:  center;
+}
