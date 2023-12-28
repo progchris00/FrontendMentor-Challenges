@@ -7,16 +7,61 @@ body {
     background-image: url(images/pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.summary {
+    font-size: 12px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-container p {
+    margin: 0 0 0 20px;
+}
+
+.plan img {
+    height: 45px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.light-color {
+    color:  hsl(224, 23%, 55%);
+}
+
+.description {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .image img{
     width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .card {

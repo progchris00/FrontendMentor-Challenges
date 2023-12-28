@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Order summary card</title>
 </head>
@@ -23,9 +24,11 @@
             device anywhere you like!
           </div>
           <div class="plan">
-            Annual Plan
-            $59.99/year
-            Change
+            <div class="left-container">
+              <img src="images/icon-music.svg" alt="">
+              <div><p>Annual Plan</p><p>$59.99/year</p></div>
+            </div>
+              <p>Change</p>
           </div>
           <button class="paymet">Proceed to Payment</button>
           <button class="cancel">Cancel Order</button>
