@@ -1,6 +1,8 @@
 # Frontend Mentor - Blog preview card solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+## Hello there! I am Christian Ortiz 👋
+
+This is my solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). These challenges help me improve my coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -35,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/progchris00/FrontendMentor-Challenges/tree/main/BlogPreviewCard)
+- Live Site URL: [Add live site URL here](https://progchris00.github.io/FrontendMentor-Challenges/BlogPreviewCard/)
 
 ## My process
 
@@ -45,8 +47,6 @@ Users should be able to:
 - HTML
 - CSS
 - Flexbox
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -90,8 +90,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Linkedin - [Christian Ortiz](https://www.linkedin.com/in/christian-ortiz-b45b39256/)
 - Frontend Mentor - [@progchris00](https://www.frontendmentor.io/profile/progchris00)
 - Github - [progchris00](https://github.com/progchris00)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
