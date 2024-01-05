@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 20px;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.summary {
+  display: flex;
+  height: 400px;
+  width: 600px;
+  box-shadow: 10px 15px 10px hsl(221, 100%, 96%);
+  border-radius: 25px;
+}
+
+.left-section {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width: 50%;
+  border-radius: 25px;
+}
+
+.right-section {
+  width: 50%;
+  border-radius: 25px;
+}
