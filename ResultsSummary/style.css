@@ -30,6 +30,8 @@ main {
   width: 50%;
   border-radius: 25px;
   color: white;
+  padding: 0 50px;
+  text-align: center;
 }
 
 .score-circle {
