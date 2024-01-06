@@ -28,6 +28,16 @@ main {
   border-radius: 25px;
 }
 
+.score-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 70px;
+}
+
 .right-section {
   width: 50%;
   border-radius: 25px;
