@@ -68,9 +68,13 @@ main {
 }
 
 .title {
-  margin: 20px 0;
-  font-size: 24px;
+  margin: 20px 0 12px 0;
+  font-size: 26px;
   font-weight: 700;
+}
+
+.description {
+  font-size: 14px;
 }
 
 .right-section {
