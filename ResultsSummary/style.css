@@ -54,6 +54,12 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.score {
+  font-size: 60px;
+  font-weight: 800;
+}
+
 .right-section {
   width: 50%;
   border-radius: 25px;
