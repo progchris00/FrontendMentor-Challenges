@@ -75,6 +75,7 @@ main {
 
 .description {
   font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .right-section {
