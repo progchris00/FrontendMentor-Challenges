@@ -161,3 +161,18 @@ main {
 .over {
   color: hsla(224, 30%, 27%, 0.5);
 }
+
+.button {
+  margin-top: 20px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  border-radius: 20px;
+  padding: 13px 20px;
+  font-weight: 700;
+  border: none;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+footer {
+  text-align: center;
+}
