@@ -113,6 +113,8 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .skill-title {
