@@ -90,4 +90,6 @@ main {
   width: 50%;
   border-radius: 25px;
   padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
 }
