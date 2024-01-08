@@ -157,3 +157,7 @@ main {
 .visual-title {
   color: hsl(234, 85%, 45%);
 }
+
+.over {
+  color: hsla(224, 30%, 27%, 0.5);
+}
