@@ -23,10 +23,10 @@ body {
 }
 
 .card {
-  height: 495px;
   width: 320px;
-  background-color: white;
+  height: 495px;
   border-radius: 15px;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -35,6 +35,13 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
+}
+
+/* Fonts */
+h1.title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-top: 30px;
 }
 
 .summary {
