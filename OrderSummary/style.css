@@ -15,6 +15,28 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  height: 495px;
+  width: 320px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+}
+
 .summary {
   font-size: 12px;
   color: hsl(223, 47%, 23%);
@@ -85,29 +107,6 @@ body {
   font-size: 14px;
   color: hsl(224, 23%, 55%);
   margin-bottom: 20px;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.image {
-  background-image: url(images/illustration-hero.svg);
-  height: 400px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.card {
-  height: 500px;
-  width: 350px;
-  background-color: white;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
 }
 
 .information {
