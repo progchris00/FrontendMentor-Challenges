@@ -30,11 +30,49 @@ body {
   margin-bottom: 13px;
 }
 
+.light-text {
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+}
+
+.bold {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* Images */
+.image img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+}
+
+.plan img {
+  width: 35px;
+  height: auto;
+}
+
+.left-container p {
+  margin: 0 0 0 20px;
+}
+
+.link {
+  font-size: 12px;
+  font-weight: 800;
+  color: hsl(245, 75%, 52%);
+}
+
+/* Sections */
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  padding: 0 30px;
+  text-align: center;
 }
 
 .card {
@@ -46,19 +84,13 @@ body {
   flex-direction: column;
 }
 
-.image img {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  width: 100%;
-}
-
 .plan {
+  height: 70px;
   background-color: hsl(225, 100%, 98%);
   border-radius: 10px;
-  padding: 5px 15px;
-  justify-content: space-between;
-  align-items: center;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .left-container {
@@ -66,35 +98,9 @@ body {
   align-items: center;
 }
 
-.left-container p {
-  margin: 0 0 0 20px;
-}
-
-.plan img {
-  height: 40px;
-}
-
-.bold {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.light-text {
-  font-size: 14px;
-  color: hsl(224, 23%, 55%);
-}
-
-.link {
-  font-size: 12px;
-  font-weight: 800;
-  color: hsl(245, 75%, 52%);
-}
-
 .payment,
 .cancel {
-  font-family: "Red Hat Display", sans-serif;
-  font-weight: 800;
-  margin-top: 20px;
+  margin-top: 22px;
   border: none;
   cursor: pointer;
 }
@@ -103,7 +109,7 @@ body {
   width: 100%;
   background-color: hsl(245, 75%, 52%);
   border: none;
-  padding: 12px 0;
+  padding: 9.5px 0;
   color: white;
   border-radius: 8px;
 }
@@ -113,7 +119,8 @@ body {
   color: hsl(224, 23%, 55%);
 }
 
-.information {
-  padding: 0 30px;
-  text-align: center;
+.button-text {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 3px;
 }
