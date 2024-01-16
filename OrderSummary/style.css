@@ -15,6 +15,21 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
+/* Fonts */
+.title h1 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-top: 30px;
+  color: hsl(223, 47%, 23%);
+}
+
+.description p {
+  font-size: 0.75rem;
+  color: hsla(224, 23%, 55%, 0.9);
+  line-height: 1.5;
+  margin-bottom: 13px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -35,21 +50,6 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-}
-
-/* Fonts */
-.title h1 {
-  font-size: 1.2rem;
-  font-weight: 900;
-  margin-top: 30px;
-  color: hsl(223, 47%, 23%);
-}
-
-.description p {
-  font-size: 0.75rem;
-  color: hsla(224, 23%, 55%, 0.9);
-  line-height: 1.5;
-  margin-bottom: 13px;
 }
 
 .plan {
