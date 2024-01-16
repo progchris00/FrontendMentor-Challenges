@@ -42,7 +42,15 @@ body {
 }
 
 /* Images */
-.image img {
+figure {
+  margin: 0;
+}
+
+figcaption {
+  display: none;
+}
+
+figure img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
@@ -64,7 +72,7 @@ body {
 }
 
 /* Sections */
-.container {
+main {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -76,7 +84,7 @@ body {
   text-align: center;
 }
 
-.card {
+article.card {
   width: 320px;
   height: 495px;
   border-radius: 15px;
