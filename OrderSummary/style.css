@@ -125,3 +125,16 @@ body {
   font-weight: 700;
   font-size: 0.75rem;
 }
+
+/* Hover effects */
+.payment:hover {
+  background-color: hsla(245, 91%, 66%, 0.711);
+}
+
+.link:hover {
+  color: hsla(245, 91%, 66%, 0.711);
+}
+
+.cancel:hover {
+  color: black;
+}
