@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(images/pattern-background-desktop.svg);
+  background-position: 0% -50%;
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   font-family: "Red Hat Display", sans-serif;
