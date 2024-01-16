@@ -108,6 +108,7 @@ body {
 .payment {
   width: 100%;
   background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 10px 10px hsla(245, 75%, 52%, 0.2);
   border: none;
   padding: 9.5px 0;
   color: white;
@@ -122,5 +123,5 @@ body {
 .button-text {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  font-size: 3px;
+  font-size: 0.75rem;
 }
