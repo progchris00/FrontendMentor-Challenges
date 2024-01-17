@@ -1,6 +1,6 @@
 # Frontend Mentor - Blog preview card solution
 
-## Hello there! I am Christian Ortiz 👋
+## Hello there! I am Christian Ortiz 👋. This is my first ever Front-end Mentor Challenge
 
 This is my solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). These challenges help me improve my coding skills by building realistic projects.
 
