@@ -2,7 +2,7 @@
 
 ## Hello there! I am Christian Ortiz 👋, and this is my second project on Front-end Mentor.
 
-![](/images/screenshot.png)
+![](images/screenshot.png)
 
 ## Tools I used:
 - Plain HTML and CSS
