@@ -4,7 +4,7 @@
 
 This is also my first ever responsive design!
 
-![](/assets/images/screenshot.png)
+![](screenshot.png)
 
 ## Tools I used:
 - Plain HTML and CSS
