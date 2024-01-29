@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -9,5 +7,35 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: hsl(30, 54%, 90%);
+}
+
+/* Fonts */
+.recipe-title {
+  color: hsl(24, 5%, 18%);
+}
+
+.sub-headings,
+.brown-text,
+.brown-marker > li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.bold {
+  font-weight: bold;
+}
+/* Sections */
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+article {
+  width: 650px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 25px auto;
+  padding: 30px;
+  border-radius: 20px;
 }
