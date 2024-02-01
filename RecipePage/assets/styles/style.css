@@ -26,6 +26,21 @@ body {
 .bold {
   font-weight: bold;
 }
+
+.sub-headings,
+.recipe-title {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+p,
+li,
+table,
+.preparation-time {
+  font-family: "Outfit", serif;
+  font-weight: 400;
+}
+
 /* Sections */
 img {
   width: 100%;
