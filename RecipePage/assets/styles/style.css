@@ -41,6 +41,12 @@ table,
   font-weight: 400;
 }
 
+td,
+caption {
+  font-size: 0.875rem;
+  color: hsl(30, 10%, 34%);
+}
+
 /* Sections */
 img {
   width: 100%;
@@ -53,4 +59,37 @@ article {
   margin: 25px auto;
   padding: 30px;
   border-radius: 20px;
+}
+
+.preparation-section {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+}
+
+.ingredients,
+.instructions {
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+/* Nutrition Table  */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+tr {
+  border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+
+tr:last-child {
+  border: none;
+}
+
+td {
+  padding: 10px 40px;
 }
