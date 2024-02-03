@@ -51,9 +51,21 @@ table {
 
 td,
 caption,
-p {
+p,
+ul > li,
+ol > li {
   font-size: 0.875rem;
   color: hsl(30, 10%, 34%);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin-left: 20px;
+}
+
+li {
+  margin: 13px 0;
 }
 
 /* Sections */
