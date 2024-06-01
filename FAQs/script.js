@@ -26,7 +26,33 @@ const faqs = [
   },
 ];
 
-{
-  /* <div id="question"></div>
-<div id="answer"></div> */
-}
+const loadQuestions = (array) => {
+  const questionsHTML = array
+    .map((faqs) => {
+      return `
+      <h3>
+      <button aria-expanded="true"
+              aria-controls="accordion-panel-1"
+              id="accordion-header-1">
+        ${faqs.header}
+        <svg aria-hidden="true">
+          <img src="assets/images/icon-star.svg">
+        </svg>
+      </button>
+    </h3>
+    <section id="accordion-panel-1"
+             aria-labelledby="accordion-header-1"
+             hidden>
+      <p>${faqs.panel}</p>
+    </section>
+    `;
+    })
+    .join("");
+
+  faqsContainer.innerHTML = questionsHTML;
+};
+
+// <div id="question">${faqs.header}</div>
+// <div id="answer">${faqs.panel}</div>
+
+loadQuestions(faqs);
