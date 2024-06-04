@@ -67,7 +67,4 @@ const loadQuestions = (array) => {
   });
 };
 
-// <div id="question">${faqs.header}</div>
-// <div id="answer">${faqs.panel}</div>
-
 loadQuestions(faqs);
