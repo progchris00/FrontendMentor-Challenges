@@ -31,17 +31,17 @@ const loadQuestions = (array) => {
     .map((faqs) => {
       return `
       <h3>
-      <button aria-expanded="true"
-              aria-controls="accordion-panel-1"
-              id="accordion-header-1">
-        ${faqs.header}
-        <svg aria-hidden="true">
-          <img src="assets/images/icon-star.svg">
-        </svg>
-      </button>
+        <button aria-expanded="true"
+                aria-controls="accordion-panel-${faqs.id}"
+                id="accordion-header-${faqs.id}">
+          ${faqs.header}
+          <svg aria-hidden="true">
+            <img src="assets/images/icon-star.svg">
+          </svg>
+        </button>
     </h3>
-    <section id="accordion-panel-1"
-             aria-labelledby="accordion-header-1"
+    <section id="accordion-panel-${faqs.id}"
+             aria-labelledby="accordion-header-${faqs.id}"
              hidden>
       <p>${faqs.panel}</p>
     </section>
