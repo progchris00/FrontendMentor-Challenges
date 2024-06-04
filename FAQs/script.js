@@ -31,9 +31,9 @@ const loadQuestions = (array) => {
     .map((faqs) => {
       return `
       <h3>
-        <button aria-expanded="true"
+        <button aria-expanded="false"
                 aria-controls="accordion-panel-${faqs.id}"
-                id="accordion-header-${faqs.id}">
+                id="accordion-header-${faqs.id}" data-accordion-header>
           ${faqs.header}
           <svg aria-hidden="true">
             <img src="assets/images/icon-star.svg">
@@ -50,6 +50,21 @@ const loadQuestions = (array) => {
     .join("");
 
   faqsContainer.innerHTML = questionsHTML;
+
+  const button = document.querySelector("button");
+
+  button.addEventListener("click", () => {
+    const accordionHeaders = document.querySelectorAll("data-accordion-header");
+    Array.prototype.forEach.call(accordionHeaders, (accordionHeader) => {
+      let target = accordionHeader.parentElement.nextElementSibling;
+      accordionHeader.onclick = () => {
+        let expanded =
+          accordionHeader.getAttribute("aria-expanded") === "true" || false;
+        accordionHeader.setAttribute("aria-expanded", !expanded);
+        target.hidden = expanded;
+      };
+    });
+  });
 };
 
 // <div id="question">${faqs.header}</div>
