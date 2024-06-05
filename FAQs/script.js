@@ -31,7 +31,8 @@ const loadQuestions = (array) => {
     .map((faqs) => {
       return `
       <h3>
-        <button aria-expanded="false"
+        <button onclick="expandQuestion(${faqs.id})"
+                aria-expanded="false"
                 aria-controls="accordion-panel-${faqs.id}"
                 id="accordion-header-${faqs.id}" data-accordion-header>
           ${faqs.header}
@@ -52,11 +53,15 @@ const loadQuestions = (array) => {
   faqsContainer.innerHTML = questionsHTML;
 
   const button = document.querySelector("button");
+};
 
-  button.addEventListener("click", () => {
-    const section = document.querySelector("section");
-    section.removeAttribute("hidden");
-  });
+const expandQuestion = (id) => {
+  const question = document.querySelector(`#accordion-panel-${id}`);
+  if (question.hasAttribute("hidden")) {
+    question.removeAttribute("hidden");
+  } else {
+    question.setAttribute("hidden", "");
+  }
 };
 
 loadQuestions(faqs);
