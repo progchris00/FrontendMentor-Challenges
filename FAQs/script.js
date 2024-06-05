@@ -51,8 +51,6 @@ const loadQuestions = (array) => {
     .join("");
 
   faqsContainer.innerHTML = questionsHTML;
-
-  const button = document.querySelector("button");
 };
 
 const expandQuestion = (id) => {
