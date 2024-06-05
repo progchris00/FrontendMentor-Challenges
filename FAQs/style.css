@@ -1,0 +1,24 @@
+:root {
+  /* colors */
+  --primary-color: rgb(47, 21, 51);
+  --secondary-color: rgb(140, 105, 145);
+  --app-background-color: rgb(249, 240, 255);
+  --background-color: rgb(255, 255, 255);
+
+  /* font sizes */
+  --root-font-size: 16px;
+  font-size: var(--root-font-size);
+
+  /* font-families */
+  --font-family: "Work Sans", monospace;
+
+  /* font weight */
+  --semi-bold: 600;
+  --bold: 700;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
