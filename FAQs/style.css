@@ -10,7 +10,7 @@
   font-size: var(--root-font-size);
 
   /* font-families */
-  --font-family: "Work Sans", monospace;
+  --font-family: "Work Sans", sans-serif;
 
   /* font weight */
   --semi-bold: 600;
@@ -22,3 +22,27 @@
 *::before {
   box-sizing: border-box;
 }
+
+/* Font styling */
+#title {
+  font-size: 2.5rem;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: var(--bold);
+}
+
+button {
+  font-size: 1.125rem;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  font-weight: var(--semi-bold);
+}
+
+section {
+  font-size: 1rem;
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+/* End of font styling */
