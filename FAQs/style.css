@@ -56,6 +56,16 @@ button {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin: 20px 0;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #ad28eb;
+}
+
+#border {
+  border-top: 2px solid rgba(140, 105, 145, 0.1);
 }
 
 .faq-container {
