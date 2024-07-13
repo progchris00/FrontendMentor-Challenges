@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .social-btns {
-  @apply bg-grey text-white font-inter py-3 rounded-xl w-full max-w-sm;
+  @apply bg-grey text-white font-inter py-3 rounded-xl w-full max-w-sm font-bold hover:bg-green hover:text-grey text-center;
 }

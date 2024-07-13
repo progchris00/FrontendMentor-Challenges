@@ -592,7 +592,16 @@ video {
   background-color: hsl(0 0% 20% / var(--tw-bg-opacity));
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  text-align: center;
   font-family: Inter, sans-serif;
+  font-weight: 700;
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.social-btns:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(75 94% 57% / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 20% / var(--tw-text-opacity));
 }

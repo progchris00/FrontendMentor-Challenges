@@ -2,7 +2,7 @@ const socialButtons = document.getElementById("social-buttons");
 
 const socialLinks = [
   {
-    social: "Github",
+    social: "GitHub",
     link: "#",
   },
   {
@@ -26,7 +26,7 @@ const socialLinks = [
 socialLinks.forEach((element) => {
   const button = document.createElement("a");
   button.textContent = element.social;
-  button.link = element.link;
+  button.href = element.link;
   button.target = "_blank";
   button.rel = "noopener noreferrer";
   button.classList.add("social-btns");
