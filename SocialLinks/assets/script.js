@@ -26,14 +26,6 @@ const socialLinks = [
 socialLinks.forEach((element) => {
   const button = document.createElement("button");
   button.textContent = element.social;
-  button.classList.add(
-    "bg-grey",
-    "text-white",
-    "font-inter",
-    "py-3",
-    "rounded-xl",
-    "w-full",
-    "max-w-sm"
-  );
+  button.classList.add("social-btns");
   socialButtons.appendChild(button);
 });

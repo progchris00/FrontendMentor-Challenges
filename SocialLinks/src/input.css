@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.social-btns {
+  @apply bg-grey text-white font-inter py-3 rounded-xl w-full max-w-sm;
+}
