@@ -24,8 +24,11 @@ const socialLinks = [
 ];
 
 socialLinks.forEach((element) => {
-  const button = document.createElement("button");
+  const button = document.createElement("a");
   button.textContent = element.social;
+  button.link = element.link;
+  button.target = "_blank";
+  button.rel = "noopener noreferrer";
   button.classList.add("social-btns");
   socialButtons.appendChild(button);
 });
