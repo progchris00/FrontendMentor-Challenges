@@ -13,24 +13,38 @@
     <title>Frontend Mentor | Social links profile</title>
   </head>
   <body class="bg-off-black">
-    <div class="flex justify-center items-center h-screen">
-      <div id="card" class="bg-dark-grey max-w-md w-full rounded-2xl">
-        <div id="user-information">
-          <h1 id="user-name" class="font-extrabold">Jessica Randall</h1>
-          <p id="user-location">London, United Kingdom</p>
+    <div class="flex flex-col justify-center items-center h-screen">
+      <div
+        id="card"
+        class="bg-dark-grey max-w-md w-11/12 rounded-2xl py-8 text-center"
+      >
+        <div id="user-information" class="flex flex-col items-center">
+          <img
+            src="/assets/images/avatar-jessica.jpeg"
+            alt=""
+            class="rounded-full w-20 mb-3"
+          />
+          <h1 id="user-name" class="font-medium text-white text-3xl">
+            Jessica Randall
+          </h1>
+          <p id="user-location" class="text-green font-bold mt-2">
+            London, United Kingdom
+          </p>
+          <p id="user-description" class="text-white text-s mt-7 mb-7">
+            "Front-end developer and avid reader."
+          </p>
         </div>
-        <p id="user-description">"Front-end developer and avid reader."</p>
         <div
-          class="flex flex-col gap-3 items-center px-6"
+          class="flex flex-col gap-4 items-center px-6"
           id="social-buttons"
         ></div>
       </div>
-    </div>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      <div class="attribution text-white bottom-0 absolute mb-5">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
     </div>
     <script src="/assets/script.js"></script>
   </body>
