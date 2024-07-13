@@ -3,15 +3,15 @@ const socialButtons = document.getElementById("social-buttons");
 const socialLinks = [
   {
     social: "GitHub",
-    link: "#",
+    link: "https://github.com/progchris00",
   },
   {
     social: "Frontend Mentor",
-    link: "#",
+    link: "https://www.frontendmentor.io/profile/progchris00",
   },
   {
     social: "LinkedIn",
-    link: "#",
+    link: "https://www.linkedin.com/in/christian-ortiz-b45b39256/",
   },
   {
     social: "Twitter",
