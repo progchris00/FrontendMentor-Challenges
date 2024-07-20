@@ -67,3 +67,35 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  font-size: 0.875rem;
+  color: var(--dark-grayish-blue);
+  background-color: var(--cream);
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.flex-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product {
+  --content-padding: 1.5rem;
+  --content-gap: 1rem;
+
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.product__content {
+  padding: var(--content-padding);
+  gap: var(--content-gap);
+}
