@@ -1,5 +1,6 @@
 :root {
   --dark-cyan: hsl(158, 36%, 37%);
+  --darker-cyan: hsl(158, 36%, 17%);
   --cream: hsl(30, 38%, 92%);
   --very-dark-blue: hsl(212, 21%, 14%);
   --dark-grayish-blue: hsl(228, 12%, 48%);
@@ -70,6 +71,7 @@ h6 {
 
 body {
   font-family: var(--ff-base);
+  line-height: 1.7;
   font-weight: var(--fw-regular);
   font-size: 0.875rem;
   color: var(--dark-grayish-blue);
@@ -93,9 +95,63 @@ body {
   background-color: var(--white);
   border-radius: 0.5rem;
   overflow: hidden;
+  display: grid;
+  max-width: 600px;
+}
+
+@media (min-width: 600px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .product__content {
+  display: grid;
   padding: var(--content-padding);
   gap: var(--content-gap);
+}
+
+.product__tag {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.product__name {
+  font-family: var(--ff-accent);
+  color: var(--very-dark-blue);
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+.product__price {
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-bold);
+  color: var(--dark-cyan);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--dark-cyan);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  color: var(--white);
+  font-weight: var(--fw-bold);
+  cursor: pointer;
+}
+
+.button[data-icon="shopping-cart"]::before {
+  content: "";
+  width: 15px;
+  height: 16px;
+  background-image: url(images/icon-cart.svg);
+}
+
+.button:is(:hover, :focus) {
+  background-color: var(--darker-cyan);
 }
